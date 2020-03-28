@@ -1,5 +1,6 @@
 Feature: Logging with valid credentials
 
+    @login
     Scenario: User login succesfully
 
         Given I create a new user
